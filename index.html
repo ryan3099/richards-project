@@ -1,67 +1,80 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrie Richards Leary LLC</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-      color: #333;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdfd;
+      color: #222;
     }
-    header {
-      background-color: #003366;
+    .hero {
+      background: url('https://images.unsplash.com/photo-1509909756405-be0199881695?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       color: white;
-      padding: 30px 20px;
+      text-shadow: 0 0 12px rgba(0,0,0,0.7);
+    }
+    .hero h1 {
+      font-size: 48px;
+    }
+    .section {
+      padding: 60px 20px;
       text-align: center;
     }
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    h1, h2 {
-      color: #003366;
-    }
-    .contact {
-      background: #fff;
-      padding: 20px;
-      border-left: 5px solid #003366;
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
       margin-top: 30px;
     }
-    footer {
-      background-color: #003366;
-      color: white;
+    .gallery img {
+      width: 280px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .contact {
+      background-color: #f1f1f1;
+      padding: 40px 20px;
       text-align: center;
-      padding: 15px;
-      margin-top: 50px;
+    }
+    .contact p {
+      font-size: 18px;
+    }
+    .contact a {
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
-  </header>
+  <div class="hero">
+    <h1>Carrie Richards Leary LLC</h1>
+  </div>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
-
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
+  <div class="section">
+    <h2>Our Commitment</h2>
+    <p>Based in Wyoming, dedicated to excellence in service and operations.</p>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?q=80&w=2653&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gallery 1">
+      <img src="https://images.unsplash.com/photo-1604699229817-27301bdfed68?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gallery 2">
+      <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gallery 3">
     </div>
-  </section>
+  </div>
 
-  <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
-  </footer>
+  <div class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:admin@carrierichardslear.shop">admin@carrierichardslear.shop</a></p>
+    <p>Phone: <a href="tel:8383686724">838-368-6724</a></p>
+  </div>
 </body>
 </html>
